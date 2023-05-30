@@ -6,26 +6,29 @@
 
 <body>
     <header>
-        <h1>Sonia Johnson</h1>
+        
         <div class="topnav">
             <a id="about" href="SoniaJohnsonBio.html">About</a>
                 <a id="contact" href="Contact.html">Contact</a>
                 <a id="resume" href="Resume.html">Resume</a>          
         </div>
     </header>
-
+    <h1>Sonia Johnson</h1>
     <h1>Contact <p></p>
     </h1>
-    <form class="contact-form">
+    <form action="mailto:sboonejohnson@yahoo.com" class="contact-form">
         <label>First Name</label>
         <input class="form-input" type="text" id="first-name" required>
 
         <label>Last Name</label>
         <input class="form-input" type="text" id="last-name" required>
 
+        <label>Subject</label>
+        <input class='form-input' type="text">
+
         <label>Message</label>
         <textarea placeholder="For email content"></textarea>
-        <button>BUTTON</button>
+        <button>send</button>
     </form>
     <script type="text/javascript" src="script.js"></script>
 </body>
