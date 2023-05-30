@@ -1,2 +1,2 @@
 # personal-website
-my persona website
+my personal website
